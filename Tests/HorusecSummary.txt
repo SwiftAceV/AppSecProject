@@ -1,0 +1,1051 @@
+==================================================================================
+
+HORUSEC ENDED THE ANALYSIS WITH STATUS OF "success" AND WITH THE FOLLOWING RESULTS:
+
+==================================================================================
+
+Analysis StartedAt: 2022-11-24 01:07:59
+Analysis FinishedAt: 2022-11-24 01:08:30
+
+==================================================================================
+
+Language: Leaks
+Severity: CRITICAL
+Line: 83
+Column: 51
+SecurityTool: HorusecEngine
+Confidence: MEDIUM
+File: /home/przemek/Downloads/MovieServiceMobileAPImaster/SQLQuery/createDB.py
+Code: sword='mysecretpassword', host='127.0.0.1', port= '5432'
+RuleID: HS-LEAKS-26
+Type: Vulnerability
+ReferenceHash: 39c41e1ea8cbec7964ed3f44761f707bd301c1005d91e7a20e3fd4abaf291bc5
+Details: (1/1) * Possible vulnerability detected: Hard-coded password
+The software contains hard-coded credentials, such as a password or cryptographic key, which it uses for its own inbound authentication, outbound communication to external components, or encryption of internal data. For more information checkout the CWE-798 (https://cwe.mitre.org/data/definitions/798.html) advisory.
+
+==================================================================================
+
+Language: Leaks
+Severity: CRITICAL
+Line: 112
+Column: 81
+SecurityTool: HorusecEngine
+Confidence: MEDIUM
+File: /home/przemek/Downloads/MovieServiceMobileAPImaster/SQLQuery/createDB.py
+Code: user_guid   user_name   email   user_role   refresh_token   token_expires   user_password
+RuleID: HS-LEAKS-26
+Type: Vulnerability
+ReferenceHash: 65c6a5a877f5561559a219c1a6c7aaf72d8e17758dedfe0862238f43e8dc430c
+Details: (1/1) * Possible vulnerability detected: Hard-coded password
+The software contains hard-coded credentials, such as a password or cryptographic key, which it uses for its own inbound authentication, outbound communication to external components, or encryption of internal data. For more information checkout the CWE-798 (https://cwe.mitre.org/data/definitions/798.html) advisory.
+
+==================================================================================
+
+Language: Leaks
+Severity: CRITICAL
+Line: 120
+Column: 81
+SecurityTool: HorusecEngine
+Confidence: MEDIUM
+File: /home/przemek/Downloads/MovieServiceMobileAPImaster/SQLQuery/createDB.py
+Code: user_guid   user_name   email   user_role   refresh_token   token_expires   user_password
+RuleID: HS-LEAKS-26
+Type: Vulnerability
+ReferenceHash: 180888e0984842f7336c48e2dd721fb59fd21720249f516fe4f13168e858eab2
+Details: (1/1) * Possible vulnerability detected: Hard-coded password
+The software contains hard-coded credentials, such as a password or cryptographic key, which it uses for its own inbound authentication, outbound communication to external components, or encryption of internal data. For more information checkout the CWE-798 (https://cwe.mitre.org/data/definitions/798.html) advisory.
+
+==================================================================================
+
+Language: Leaks
+Severity: CRITICAL
+Line: 20
+Column: 29
+SecurityTool: HorusecEngine
+Confidence: MEDIUM
+File: /home/przemek/Downloads/MovieServiceMobileAPImaster/Client/MobileServiceMobileApp/MobileServiceMobileApp/LoginPage.xaml
+Code: IsPassword="True"  />
+RuleID: HS-LEAKS-26
+Type: Vulnerability
+ReferenceHash: 88c2a5eeb0cfeebd04f02a6a8c0ff2bb9c90a2ec6bd65f818a5f69a040865bdb
+Details: (1/1) * Possible vulnerability detected: Hard-coded password
+The software contains hard-coded credentials, such as a password or cryptographic key, which it uses for its own inbound authentication, outbound communication to external components, or encryption of internal data. For more information checkout the CWE-798 (https://cwe.mitre.org/data/definitions/798.html) advisory.
+
+==================================================================================
+
+Language: Leaks
+Severity: CRITICAL
+Line: 22
+Column: 29
+SecurityTool: HorusecEngine
+Confidence: MEDIUM
+File: /home/przemek/Downloads/MovieServiceMobileAPImaster/Client/MobileServiceMobileApp/MobileServiceMobileApp/RegisterPage.xaml
+Code: IsPassword="True"  />
+RuleID: HS-LEAKS-26
+Type: Vulnerability
+ReferenceHash: fbb7f0a70f179aac4e5bb2804755446f4c580927ddbe19e19c44ad3b073b50d3
+Details: (1/1) * Possible vulnerability detected: Hard-coded password
+The software contains hard-coded credentials, such as a password or cryptographic key, which it uses for its own inbound authentication, outbound communication to external components, or encryption of internal data. For more information checkout the CWE-798 (https://cwe.mitre.org/data/definitions/798.html) advisory.
+
+==================================================================================
+
+Language: Leaks
+Severity: CRITICAL
+Line: 25
+Column: 29
+SecurityTool: HorusecEngine
+Confidence: MEDIUM
+File: /home/przemek/Downloads/MovieServiceMobileAPImaster/Client/MobileServiceMobileApp/MobileServiceMobileApp/RegisterPage.xaml
+Code: IsPassword="True"  />
+RuleID: HS-LEAKS-26
+Type: Vulnerability
+ReferenceHash: 52001a75cd63278855e21346b25b0091fe0565a6d037937a7894534ffd1dc428
+Details: (1/1) * Possible vulnerability detected: Hard-coded password
+The software contains hard-coded credentials, such as a password or cryptographic key, which it uses for its own inbound authentication, outbound communication to external components, or encryption of internal data. For more information checkout the CWE-798 (https://cwe.mitre.org/data/definitions/798.html) advisory.
+
+==================================================================================
+
+Language: Leaks
+Severity: CRITICAL
+Line: 103
+Column: 45
+SecurityTool: HorusecEngine
+Confidence: MEDIUM
+File: /home/przemek/Downloads/MovieServiceMobileAPImaster/API/SQLQuery/createDB.py
+Code: sword='mysecretpassword', host='127.0.0.1', port= '5432'
+RuleID: HS-LEAKS-26
+Type: Vulnerability
+ReferenceHash: 052b7bbfd45305ea18c331705e105cb6c46d29181f2c620c53d28c41afd0e431
+Details: (1/1) * Possible vulnerability detected: Hard-coded password
+The software contains hard-coded credentials, such as a password or cryptographic key, which it uses for its own inbound authentication, outbound communication to external components, or encryption of internal data. For more information checkout the CWE-798 (https://cwe.mitre.org/data/definitions/798.html) advisory.
+
+==================================================================================
+
+Language: Leaks
+Severity: CRITICAL
+Line: 0
+Column: 0
+SecurityTool: HorusecEngine
+Confidence: MEDIUM
+File: /home/przemek/Downloads/MovieServiceMobileAPImaster/API/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map
+Code: 
+RuleID: HS-LEAKS-25
+Type: Vulnerability
+ReferenceHash: 3ddcfb2226c03862d4f3d2feb3e0a9191b72de928987bb19aac239d4205b9def
+Details: (1/1) * Possible vulnerability detected: Potential Hard-coded credential
+The software contains hard-coded credentials, such as a password or cryptographic key, which it uses for its own inbound authentication, outbound communication to external components, or encryption of internal data. For more information checkout the CWE-798 (https://cwe.mitre.org/data/definitions/798.html) advisory.
+
+==================================================================================
+
+Language: Leaks
+Severity: CRITICAL
+Line: 0
+Column: 0
+SecurityTool: HorusecEngine
+Confidence: MEDIUM
+File: /home/przemek/Downloads/MovieServiceMobileAPImaster/API/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map
+Code: 
+RuleID: HS-LEAKS-25
+Type: Vulnerability
+ReferenceHash: 16ffcdd399f4bd4e78f94e7811f445c864eefb9e4d851b889c12c22a8ac49fb1
+Details: (1/1) * Possible vulnerability detected: Potential Hard-coded credential
+The software contains hard-coded credentials, such as a password or cryptographic key, which it uses for its own inbound authentication, outbound communication to external components, or encryption of internal data. For more information checkout the CWE-798 (https://cwe.mitre.org/data/definitions/798.html) advisory.
+
+==================================================================================
+
+Language: Leaks
+Severity: CRITICAL
+Line: 0
+Column: 0
+SecurityTool: HorusecEngine
+Confidence: MEDIUM
+File: /home/przemek/Downloads/MovieServiceMobileAPImaster/API/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map
+Code: 
+RuleID: HS-LEAKS-25
+Type: Vulnerability
+ReferenceHash: 16ffcdd399f4bd4e78f94e7811f445c864eefb9e4d851b889c12c22a8ac49fb1
+Details: (1/1) * Possible vulnerability detected: Potential Hard-coded credential
+The software contains hard-coded credentials, such as a password or cryptographic key, which it uses for its own inbound authentication, outbound communication to external components, or encryption of internal data. For more information checkout the CWE-798 (https://cwe.mitre.org/data/definitions/798.html) advisory.
+
+==================================================================================
+
+Language: Leaks
+Severity: CRITICAL
+Line: 0
+Column: 0
+SecurityTool: HorusecEngine
+Confidence: MEDIUM
+File: /home/przemek/Downloads/MovieServiceMobileAPImaster/API/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map
+Code: 
+RuleID: HS-LEAKS-25
+Type: Vulnerability
+ReferenceHash: a23c7b3607684fd18cb93328f92d1d46d462b66bf83e9e4486d84e3bb742c666
+Details: (1/1) * Possible vulnerability detected: Potential Hard-coded credential
+The software contains hard-coded credentials, such as a password or cryptographic key, which it uses for its own inbound authentication, outbound communication to external components, or encryption of internal data. For more information checkout the CWE-798 (https://cwe.mitre.org/data/definitions/798.html) advisory.
+
+==================================================================================
+
+Language: Leaks
+Severity: CRITICAL
+Line: 0
+Column: 0
+SecurityTool: HorusecEngine
+Confidence: MEDIUM
+File: /home/przemek/Downloads/MovieServiceMobileAPImaster/API/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map
+Code: 
+RuleID: HS-LEAKS-25
+Type: Vulnerability
+ReferenceHash: 1d7032a8bfd0ab8c22ca4a25cfaf50992ef0b79227c4ee594fd633b6ae895089
+Details: (1/1) * Possible vulnerability detected: Potential Hard-coded credential
+The software contains hard-coded credentials, such as a password or cryptographic key, which it uses for its own inbound authentication, outbound communication to external components, or encryption of internal data. For more information checkout the CWE-798 (https://cwe.mitre.org/data/definitions/798.html) advisory.
+
+==================================================================================
+
+Language: Leaks
+Severity: CRITICAL
+Line: 0
+Column: 0
+SecurityTool: HorusecEngine
+Confidence: MEDIUM
+File: /home/przemek/Downloads/MovieServiceMobileAPImaster/API/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map
+Code: 
+RuleID: HS-LEAKS-25
+Type: Vulnerability
+ReferenceHash: 1d7032a8bfd0ab8c22ca4a25cfaf50992ef0b79227c4ee594fd633b6ae895089
+Details: (1/1) * Possible vulnerability detected: Potential Hard-coded credential
+The software contains hard-coded credentials, such as a password or cryptographic key, which it uses for its own inbound authentication, outbound communication to external components, or encryption of internal data. For more information checkout the CWE-798 (https://cwe.mitre.org/data/definitions/798.html) advisory.
+
+==================================================================================
+
+Language: Leaks
+Severity: CRITICAL
+Line: 0
+Column: 0
+SecurityTool: HorusecEngine
+Confidence: MEDIUM
+File: /home/przemek/Downloads/MovieServiceMobileAPImaster/API/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map
+Code: 
+RuleID: HS-LEAKS-25
+Type: Vulnerability
+ReferenceHash: ab0a2506712d2f3f5022c8b3f567aa0e7244ac1318b60776efaa2f59a633bede
+Details: (1/1) * Possible vulnerability detected: Potential Hard-coded credential
+The software contains hard-coded credentials, such as a password or cryptographic key, which it uses for its own inbound authentication, outbound communication to external components, or encryption of internal data. For more information checkout the CWE-798 (https://cwe.mitre.org/data/definitions/798.html) advisory.
+
+==================================================================================
+
+Language: Leaks
+Severity: CRITICAL
+Line: 0
+Column: 0
+SecurityTool: HorusecEngine
+Confidence: MEDIUM
+File: /home/przemek/Downloads/MovieServiceMobileAPImaster/API/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map
+Code: 
+RuleID: HS-LEAKS-25
+Type: Vulnerability
+ReferenceHash: ab0a2506712d2f3f5022c8b3f567aa0e7244ac1318b60776efaa2f59a633bede
+Details: (1/1) * Possible vulnerability detected: Potential Hard-coded credential
+The software contains hard-coded credentials, such as a password or cryptographic key, which it uses for its own inbound authentication, outbound communication to external components, or encryption of internal data. For more information checkout the CWE-798 (https://cwe.mitre.org/data/definitions/798.html) advisory.
+
+==================================================================================
+
+Language: Leaks
+Severity: CRITICAL
+Line: 0
+Column: 0
+SecurityTool: HorusecEngine
+Confidence: MEDIUM
+File: /home/przemek/Downloads/MovieServiceMobileAPImaster/API/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map
+Code: 
+RuleID: HS-LEAKS-25
+Type: Vulnerability
+ReferenceHash: 0485173e595c37e700ef0a31e24cb95edf47c7006d9758df0a196c566c781247
+Details: (1/1) * Possible vulnerability detected: Potential Hard-coded credential
+The software contains hard-coded credentials, such as a password or cryptographic key, which it uses for its own inbound authentication, outbound communication to external components, or encryption of internal data. For more information checkout the CWE-798 (https://cwe.mitre.org/data/definitions/798.html) advisory.
+
+==================================================================================
+
+Language: Leaks
+Severity: CRITICAL
+Line: 0
+Column: 0
+SecurityTool: HorusecEngine
+Confidence: MEDIUM
+File: /home/przemek/Downloads/MovieServiceMobileAPImaster/API/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map
+Code: 
+RuleID: HS-LEAKS-25
+Type: Vulnerability
+ReferenceHash: 0485173e595c37e700ef0a31e24cb95edf47c7006d9758df0a196c566c781247
+Details: (1/1) * Possible vulnerability detected: Potential Hard-coded credential
+The software contains hard-coded credentials, such as a password or cryptographic key, which it uses for its own inbound authentication, outbound communication to external components, or encryption of internal data. For more information checkout the CWE-798 (https://cwe.mitre.org/data/definitions/798.html) advisory.
+
+==================================================================================
+
+Language: JavaScript
+Severity: HIGH
+Line: 6
+Column: 2024
+SecurityTool: HorusecEngine
+Confidence: MEDIUM
+File: /home/przemek/Downloads/MovieServiceMobileAPImaster/API/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js
+Code: .addEventListener("DOMContentLoaded",()=>{f.forEach(t=>t())}),f.push(e)):e()},g=t=>{"function"==type
+RuleID: HS-JAVASCRIPT-11
+Type: Vulnerability
+ReferenceHash: a01791a59ff8509ae4342127d4a7f3e1628a135dc6bd56e3d5182eab662513a6
+Details: (1/1) * Possible vulnerability detected: Origins should be verified during cross-origin communications
+Browsers allow message exchanges between Window objects of different origins. Because any window can send / receive messages from other window it is important to verify the sender's / receiver's identity: When sending message with postMessage method, the identity's receiver should be defined (the wildcard keyword (*) should not be used).
+When receiving message with message event, the sender's identity should be verified using the origin and possibly source properties. For more information checkout the OWASP A2:2017 (https://owasp.org/www-project-top-ten/2017/A2_2017-Broken_Authentication) and (https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage) advisory.
+
+==================================================================================
+
+Language: JavaScript
+Severity: HIGH
+Line: 6
+Column: 61740
+SecurityTool: HorusecEngine
+Confidence: MEDIUM
+File: /home/przemek/Downloads/MovieServiceMobileAPImaster/API/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js
+Code: Math.random())}while(document.getElementById(t));return t})(this.constructor.NAME);n.setAttribute("i
+RuleID: HS-JAVASCRIPT-6
+Type: Vulnerability
+ReferenceHash: 55c6da1caefbd31db9e7a1ada879124e192b785061fe8f4fd876e7cc6227f9bf
+Details: (1/1) * Possible vulnerability detected: No use weak random number generator
+When software generates predictable values in a context requiring unpredictability, it may be possible for an attacker to guess the next value that will be generated, and use this guess to impersonate another user or access sensitive information. As the Math.random() function relies on a weak pseudorandom number generator, this function should not be used for security-critical applications or for protecting sensitive data. In such context, a cryptographically strong pseudorandom number generator (CSPRNG) should be used instead. For more information checkout the CWE-338 (https://cwe.mitre.org/data/definitions/338.html) advisory.
+
+==================================================================================
+
+Language: JavaScript
+Severity: HIGH
+Line: 6
+Column: 2375
+SecurityTool: HorusecEngine
+Confidence: MEDIUM
+File: /home/przemek/Downloads/MovieServiceMobileAPImaster/API/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js
+Code: .addEventListener("DOMContentLoaded",()=>{_.forEach(t=>t())}),_.push(e)):e()},v=t=>{"function"==type
+RuleID: HS-JAVASCRIPT-11
+Type: Vulnerability
+ReferenceHash: e3dfa81dff8f7138acf48f70514e543ffbd0660c41b7d199976fd9e348ce6842
+Details: (1/1) * Possible vulnerability detected: Origins should be verified during cross-origin communications
+Browsers allow message exchanges between Window objects of different origins. Because any window can send / receive messages from other window it is important to verify the sender's / receiver's identity: When sending message with postMessage method, the identity's receiver should be defined (the wildcard keyword (*) should not be used).
+When receiving message with message event, the sender's identity should be verified using the origin and possibly source properties. For more information checkout the OWASP A2:2017 (https://owasp.org/www-project-top-ten/2017/A2_2017-Broken_Authentication) and (https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage) advisory.
+
+==================================================================================
+
+Language: JavaScript
+Severity: HIGH
+Line: 6
+Column: 42777
+SecurityTool: HorusecEngine
+Confidence: MEDIUM
+File: /home/przemek/Downloads/MovieServiceMobileAPImaster/API/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js
+Code: Math.random())}while(document.getElementById(t));return t})(this.constructor.NAME);n.setAttribute("i
+RuleID: HS-JAVASCRIPT-6
+Type: Vulnerability
+ReferenceHash: 833bf81c8796eb16d0f9ffcd583c8616b96369c7af07da7f4a94315a9f175177
+Details: (1/1) * Possible vulnerability detected: No use weak random number generator
+When software generates predictable values in a context requiring unpredictability, it may be possible for an attacker to guess the next value that will be generated, and use this guess to impersonate another user or access sensitive information. As the Math.random() function relies on a weak pseudorandom number generator, this function should not be used for security-critical applications or for protecting sensitive data. In such context, a cryptographically strong pseudorandom number generator (CSPRNG) should be used instead. For more information checkout the CWE-338 (https://cwe.mitre.org/data/definitions/338.html) advisory.
+
+==================================================================================
+
+Language: JavaScript
+Severity: HIGH
+Line: 6
+Column: 2414
+SecurityTool: HorusecEngine
+Confidence: MEDIUM
+File: /home/przemek/Downloads/MovieServiceMobileAPImaster/API/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js
+Code: .addEventListener("DOMContentLoaded",()=>{DOMContentLoadedCallbacks.forEach(e=>e())}),DOMContentLoad
+RuleID: HS-JAVASCRIPT-11
+Type: Vulnerability
+ReferenceHash: 37eb28b03eb3db45c26b8703db0daa5d0c1a80011531398ad6c9e4921b135ab1
+Details: (1/1) * Possible vulnerability detected: Origins should be verified during cross-origin communications
+Browsers allow message exchanges between Window objects of different origins. Because any window can send / receive messages from other window it is important to verify the sender's / receiver's identity: When sending message with postMessage method, the identity's receiver should be defined (the wildcard keyword (*) should not be used).
+When receiving message with message event, the sender's identity should be verified using the origin and possibly source properties. For more information checkout the OWASP A2:2017 (https://owasp.org/www-project-top-ten/2017/A2_2017-Broken_Authentication) and (https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage) advisory.
+
+==================================================================================
+
+Language: JavaScript
+Severity: HIGH
+Line: 6
+Column: 228
+SecurityTool: HorusecEngine
+Confidence: MEDIUM
+File: /home/przemek/Downloads/MovieServiceMobileAPImaster/API/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js
+Code: Math.random())}while(document.getElementById(e));return e},getSelector=e=>{let t=e.getAttribute("dat
+RuleID: HS-JAVASCRIPT-6
+Type: Vulnerability
+ReferenceHash: 62bacb66facf1f06832aa1ae991ef1f82e7963e4ad0ea56b8efe36d82c7bc965
+Details: (1/1) * Possible vulnerability detected: No use weak random number generator
+When software generates predictable values in a context requiring unpredictability, it may be possible for an attacker to guess the next value that will be generated, and use this guess to impersonate another user or access sensitive information. As the Math.random() function relies on a weak pseudorandom number generator, this function should not be used for security-critical applications or for protecting sensitive data. In such context, a cryptographically strong pseudorandom number generator (CSPRNG) should be used instead. For more information checkout the CWE-338 (https://cwe.mitre.org/data/definitions/338.html) advisory.
+
+==================================================================================
+
+Language: JavaScript
+Severity: HIGH
+Line: 6
+Column: 2635
+SecurityTool: HorusecEngine
+Confidence: MEDIUM
+File: /home/przemek/Downloads/MovieServiceMobileAPImaster/API/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js
+Code: Query();if(t){const i=e.NAME,n=t.fn[i];t.fn[i]=e.jQueryInterface,t.fn[i].Constructor=e,t.fn[i].noCon
+RuleID: HS-JAVASCRIPT-53
+Type: Vulnerability
+ReferenceHash: 44cc8eb1391a02a9871ca1de1a4b1b2b8e6654aec7628fcb52022a5feb902539
+Details: (1/1) * Possible vulnerability detected: SQL Injection
+SQL queries often need to use a hardcoded SQL string with a dynamic parameter coming from a user request. Formatting a string to add those parameters to the request is a bad practice as it can result in an SQL injection. The safe way to add parameters to a SQL query is to use SQL binding mechanisms. For more information checkout the CWE-564 (https://cwe.mitre.org/data/definitions/564.html) and OWASP A1:2017 (https://owasp.org/www-project-top-ten/2017/A1_2017-Injection.html) advisory.
+
+==================================================================================
+
+Language: JavaScript
+Severity: HIGH
+Line: 2
+Column: 8662
+SecurityTool: HorusecEngine
+Confidence: MEDIUM
+File: /home/przemek/Downloads/MovieServiceMobileAPImaster/API/wwwroot/lib/jquery/dist/jquery.min.js
+Code: .addEventListener("unload",oe,!1):n.attachEvent&&n.attachEvent("onunload",oe)),d.scope=ce(function(e
+RuleID: HS-JAVASCRIPT-11
+Type: Vulnerability
+ReferenceHash: ffa875ee9ce9f91cb3ba42da8ab24ad724e1298858b04c2c10974bb5c2b2ca47
+Details: (1/1) * Possible vulnerability detected: Origins should be verified during cross-origin communications
+Browsers allow message exchanges between Window objects of different origins. Because any window can send / receive messages from other window it is important to verify the sender's / receiver's identity: When sending message with postMessage method, the identity's receiver should be defined (the wildcard keyword (*) should not be used).
+When receiving message with message event, the sender's identity should be verified using the origin and possibly source properties. For more information checkout the OWASP A2:2017 (https://owasp.org/www-project-top-ten/2017/A2_2017-Broken_Authentication) and (https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage) advisory.
+
+==================================================================================
+
+Language: JavaScript
+Severity: HIGH
+Line: 2
+Column: 2520
+SecurityTool: HorusecEngine
+Confidence: MEDIUM
+File: /home/przemek/Downloads/MovieServiceMobileAPImaster/API/wwwroot/lib/jquery/dist/jquery.min.js
+Code: Math.random()).replace(/\D/g,""),isReady:!0,error:function(e){throw new Error(e)},noop:function(){},
+RuleID: HS-JAVASCRIPT-6
+Type: Vulnerability
+ReferenceHash: 3b54596984935badc22978aac9fcb85b2a9dacd1b62364ce22ba223700fbb086
+Details: (1/1) * Possible vulnerability detected: No use weak random number generator
+When software generates predictable values in a context requiring unpredictability, it may be possible for an attacker to guess the next value that will be generated, and use this guess to impersonate another user or access sensitive information. As the Math.random() function relies on a weak pseudorandom number generator, this function should not be used for security-critical applications or for protecting sensitive data. In such context, a cryptographically strong pseudorandom number generator (CSPRNG) should be used instead. For more information checkout the CWE-338 (https://cwe.mitre.org/data/definitions/338.html) advisory.
+
+==================================================================================
+
+Language: JavaScript
+Severity: HIGH
+Line: 2
+Column: 21924
+SecurityTool: HorusecEngine
+Confidence: MEDIUM
+File: /home/przemek/Downloads/MovieServiceMobileAPImaster/API/wwwroot/lib/jquery/dist/jquery.min.js
+Code: Math.random()||.1,g=d.length;for(i&&(w=t==C||t||i);l!==g&&null!=(o=d[l]);l++){if(x&&o){a=0,t||o.owne
+RuleID: HS-JAVASCRIPT-6
+Type: Vulnerability
+ReferenceHash: 69d0c937e45c436edb701d9cb4fbe408cefb6b8912361654bc79e133a7ec9238
+Details: (1/1) * Possible vulnerability detected: No use weak random number generator
+When software generates predictable values in a context requiring unpredictability, it may be possible for an attacker to guess the next value that will be generated, and use this guess to impersonate another user or access sensitive information. As the Math.random() function relies on a weak pseudorandom number generator, this function should not be used for security-critical applications or for protecting sensitive data. In such context, a cryptographically strong pseudorandom number generator (CSPRNG) should be used instead. For more information checkout the CWE-338 (https://cwe.mitre.org/data/definitions/338.html) advisory.
+
+==================================================================================
+
+Language: JavaScript
+Severity: HIGH
+Line: 250
+Column: 16
+SecurityTool: HorusecEngine
+Confidence: MEDIUM
+File: /home/przemek/Downloads/MovieServiceMobileAPImaster/API/wwwroot/lib/bootstrap/dist/js/bootstrap.js
+Code: document.addEventListener('DOMContentLoaded', () => {
+RuleID: HS-JAVASCRIPT-11
+Type: Vulnerability
+ReferenceHash: 60af11bfce8f047ae374efd3f24cc17f722893e1b11efa4b3a79f9799e76a2df
+Details: (1/1) * Possible vulnerability detected: Origins should be verified during cross-origin communications
+Browsers allow message exchanges between Window objects of different origins. Because any window can send / receive messages from other window it is important to verify the sender's / receiver's identity: When sending message with postMessage method, the identity's receiver should be defined (the wildcard keyword (*) should not be used).
+When receiving message with message event, the sender's identity should be verified using the origin and possibly source properties. For more information checkout the OWASP A2:2017 (https://owasp.org/www-project-top-ten/2017/A2_2017-Broken_Authentication) and (https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage) advisory.
+
+==================================================================================
+
+Language: JavaScript
+Severity: HIGH
+Line: 60
+Column: 27
+SecurityTool: HorusecEngine
+Confidence: MEDIUM
+File: /home/przemek/Downloads/MovieServiceMobileAPImaster/API/wwwroot/lib/bootstrap/dist/js/bootstrap.js
+Code: prefix += Math.floor(Math.random() * MAX_UID);
+RuleID: HS-JAVASCRIPT-6
+Type: Vulnerability
+ReferenceHash: 0d0ea6cd2d1ff12ffbd4e63da742b48f77352ac28e9775de7a0ac5eda11631d2
+Details: (1/1) * Possible vulnerability detected: No use weak random number generator
+When software generates predictable values in a context requiring unpredictability, it may be possible for an attacker to guess the next value that will be generated, and use this guess to impersonate another user or access sensitive information. As the Math.random() function relies on a weak pseudorandom number generator, this function should not be used for security-critical applications or for protecting sensitive data. In such context, a cryptographically strong pseudorandom number generator (CSPRNG) should be used instead. For more information checkout the CWE-338 (https://cwe.mitre.org/data/definitions/338.html) advisory.
+
+==================================================================================
+
+Language: JavaScript
+Severity: HIGH
+Line: 224
+Column: 14
+SecurityTool: HorusecEngine
+Confidence: MEDIUM
+File: /home/przemek/Downloads/MovieServiceMobileAPImaster/API/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js
+Code: document.addEventListener('DOMContentLoaded', () => {
+RuleID: HS-JAVASCRIPT-11
+Type: Vulnerability
+ReferenceHash: f6cb14e7781be5412eeb27e68898414891a1e6601e4db6dae429f8a29d8f5a4e
+Details: (1/1) * Possible vulnerability detected: Origins should be verified during cross-origin communications
+Browsers allow message exchanges between Window objects of different origins. Because any window can send / receive messages from other window it is important to verify the sender's / receiver's identity: When sending message with postMessage method, the identity's receiver should be defined (the wildcard keyword (*) should not be used).
+When receiving message with message event, the sender's identity should be verified using the origin and possibly source properties. For more information checkout the OWASP A2:2017 (https://owasp.org/www-project-top-ten/2017/A2_2017-Broken_Authentication) and (https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage) advisory.
+
+==================================================================================
+
+Language: JavaScript
+Severity: HIGH
+Line: 34
+Column: 25
+SecurityTool: HorusecEngine
+Confidence: MEDIUM
+File: /home/przemek/Downloads/MovieServiceMobileAPImaster/API/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js
+Code: prefix += Math.floor(Math.random() * MAX_UID);
+RuleID: HS-JAVASCRIPT-6
+Type: Vulnerability
+ReferenceHash: 9f061e4d06bd4b5b0cc460be2277a3371b6c48fdba84ffd180cf85f7b6a867e3
+Details: (1/1) * Possible vulnerability detected: No use weak random number generator
+When software generates predictable values in a context requiring unpredictability, it may be possible for an attacker to guess the next value that will be generated, and use this guess to impersonate another user or access sensitive information. As the Math.random() function relies on a weak pseudorandom number generator, this function should not be used for security-critical applications or for protecting sensitive data. In such context, a cryptographically strong pseudorandom number generator (CSPRNG) should be used instead. For more information checkout the CWE-338 (https://cwe.mitre.org/data/definitions/338.html) advisory.
+
+==================================================================================
+
+Language: JavaScript
+Severity: HIGH
+Line: 228
+Column: 16
+SecurityTool: HorusecEngine
+Confidence: MEDIUM
+File: /home/przemek/Downloads/MovieServiceMobileAPImaster/API/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js
+Code: document.addEventListener('DOMContentLoaded', () => {
+RuleID: HS-JAVASCRIPT-11
+Type: Vulnerability
+ReferenceHash: afaffbb107d8070183e9743b606d4ef735b5b35a8345809147c99d267abe0114
+Details: (1/1) * Possible vulnerability detected: Origins should be verified during cross-origin communications
+Browsers allow message exchanges between Window objects of different origins. Because any window can send / receive messages from other window it is important to verify the sender's / receiver's identity: When sending message with postMessage method, the identity's receiver should be defined (the wildcard keyword (*) should not be used).
+When receiving message with message event, the sender's identity should be verified using the origin and possibly source properties. For more information checkout the OWASP A2:2017 (https://owasp.org/www-project-top-ten/2017/A2_2017-Broken_Authentication) and (https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage) advisory.
+
+==================================================================================
+
+Language: JavaScript
+Severity: HIGH
+Line: 38
+Column: 27
+SecurityTool: HorusecEngine
+Confidence: MEDIUM
+File: /home/przemek/Downloads/MovieServiceMobileAPImaster/API/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js
+Code: prefix += Math.floor(Math.random() * MAX_UID);
+RuleID: HS-JAVASCRIPT-6
+Type: Vulnerability
+ReferenceHash: 0c1944e66117370b239c95bb1d84cd2ee0d06c1058e5209c346b0f682e9d0d11
+Details: (1/1) * Possible vulnerability detected: No use weak random number generator
+When software generates predictable values in a context requiring unpredictability, it may be possible for an attacker to guess the next value that will be generated, and use this guess to impersonate another user or access sensitive information. As the Math.random() function relies on a weak pseudorandom number generator, this function should not be used for security-critical applications or for protecting sensitive data. In such context, a cryptographically strong pseudorandom number generator (CSPRNG) should be used instead. For more information checkout the CWE-338 (https://cwe.mitre.org/data/definitions/338.html) advisory.
+
+==================================================================================
+
+Language: JavaScript
+Severity: HIGH
+Line: 328
+Column: 33
+SecurityTool: HorusecEngine
+Confidence: MEDIUM
+File: /home/przemek/Downloads/MovieServiceMobileAPImaster/API/wwwroot/lib/jquery/dist/jquery.js
+Code: expando: "jQuery" + ( version + Math.random() ).replace( /\D/g, "" ),
+RuleID: HS-JAVASCRIPT-6
+Type: Vulnerability
+ReferenceHash: 4f0302887c258a9ab4caada5c253230d189874067fc36e35791e7aaadb85b0f9
+Details: (1/1) * Possible vulnerability detected: No use weak random number generator
+When software generates predictable values in a context requiring unpredictability, it may be possible for an attacker to guess the next value that will be generated, and use this guess to impersonate another user or access sensitive information. As the Math.random() function relies on a weak pseudorandom number generator, this function should not be used for security-critical applications or for protecting sensitive data. In such context, a cryptographically strong pseudorandom number generator (CSPRNG) should be used instead. For more information checkout the CWE-338 (https://cwe.mitre.org/data/definitions/338.html) advisory.
+
+==================================================================================
+
+Language: JavaScript
+Severity: HIGH
+Line: 2682
+Column: 61
+SecurityTool: HorusecEngine
+Confidence: MEDIUM
+File: /home/przemek/Downloads/MovieServiceMobileAPImaster/API/wwwroot/lib/jquery/dist/jquery.js
+Code: dirrunsUnique = ( dirruns += contextBackup == null ? 1 : Math.random() || 0.1 ),
+RuleID: HS-JAVASCRIPT-6
+Type: Vulnerability
+ReferenceHash: 188732acd2a54d083de57e974783b596c429de63e7642fd41dce881d5205e546
+Details: (1/1) * Possible vulnerability detected: No use weak random number generator
+When software generates predictable values in a context requiring unpredictability, it may be possible for an attacker to guess the next value that will be generated, and use this guess to impersonate another user or access sensitive information. As the Math.random() function relies on a weak pseudorandom number generator, this function should not be used for security-critical applications or for protecting sensitive data. In such context, a cryptographically strong pseudorandom number generator (CSPRNG) should be used instead. For more information checkout the CWE-338 (https://cwe.mitre.org/data/definitions/338.html) advisory.
+
+==================================================================================
+
+Language: C#
+Severity: HIGH
+Line: 31
+Column: 36
+SecurityTool: HorusecEngine
+Confidence: MEDIUM
+File: /home/przemek/Downloads/MovieServiceMobileAPImaster/API/Controllers/CommentsController.cs
+Code: NpgsqlCommand cmd = new NpgsqlCommand();
+RuleID: HS-CSHARP-50
+Type: Vulnerability
+ReferenceHash: 98ace160b0b12b619c6ec7e6ea9e17e6d01d97721a7a30ca996a5601973cd93e
+Details: (1/1) * Possible vulnerability detected: SQL Injection Npgsql
+Malicious user might get direct read and/or write access to the database. If the database is poorly configured the attacker might even get Remote Code Execution (RCE) on the machine running the database. For more information access: (https://security-code-scan.github.io/#SCS0039).
+
+==================================================================================
+
+Language: C#
+Severity: HIGH
+Line: 28
+Column: 36
+SecurityTool: HorusecEngine
+Confidence: MEDIUM
+File: /home/przemek/Downloads/MovieServiceMobileAPImaster/API/Controllers/MoviesController.cs
+Code: NpgsqlCommand cmd = new NpgsqlCommand();
+RuleID: HS-CSHARP-50
+Type: Vulnerability
+ReferenceHash: 0624d1ac019eef72cc7d94ed3649b029f2b306b4e49462f594b181d562cbfa76
+Details: (1/1) * Possible vulnerability detected: SQL Injection Npgsql
+Malicious user might get direct read and/or write access to the database. If the database is poorly configured the attacker might even get Remote Code Execution (RCE) on the machine running the database. For more information access: (https://security-code-scan.github.io/#SCS0039).
+
+==================================================================================
+
+Language: C#
+Severity: HIGH
+Line: 34
+Column: 36
+SecurityTool: HorusecEngine
+Confidence: MEDIUM
+File: /home/przemek/Downloads/MovieServiceMobileAPImaster/API/LoginRegister.cs
+Code: NpgsqlCommand cmd = new NpgsqlCommand();
+RuleID: HS-CSHARP-50
+Type: Vulnerability
+ReferenceHash: eed9864e3aee5db2111f29cb3150b42d1fe9189ebb022c114ae4a183e61f1721
+Details: (1/1) * Possible vulnerability detected: SQL Injection Npgsql
+Malicious user might get direct read and/or write access to the database. If the database is poorly configured the attacker might even get Remote Code Execution (RCE) on the machine running the database. For more information access: (https://security-code-scan.github.io/#SCS0039).
+
+==================================================================================
+
+Language: C#
+Severity: HIGH
+Line: 98
+Column: 38
+SecurityTool: SecurityCodeScan
+Confidence: LOW
+File: /home/przemek/Downloads/MovieServiceMobileAPImaster/API/ViewControllers/AdminController.cs
+Code: public ResponseMessageStatus PostMovie(MovieModel movieModel) {
+RuleID: SCS0016
+Type: Vulnerability
+ReferenceHash: f713884974381ff2ccf6a13402c621cefae8137e5e1fd2eecbbbdf78aeb659f2
+Details: (1/1) * Possible vulnerability detected: Controller method is potentially vulnerable to Cross Site Request Forgery (CSRF).
+The annotation [ValidateAntiForgeryToken] is missing. The warning may be ignored/suppressed if .NET Core AutoValidateAntiforgeryToken is set up globally. For more information, check the following url (https://security-code-scan.github.io/#SCS0016).
+
+==================================================================================
+
+Language: C#
+Severity: HIGH
+Line: 118
+Column: 38
+SecurityTool: SecurityCodeScan
+Confidence: LOW
+File: /home/przemek/Downloads/MovieServiceMobileAPImaster/API/ViewControllers/AdminController.cs
+Code: public ResponseMessageStatus DeleteMovie(MovieModel movieModel) {
+RuleID: SCS0016
+Type: Vulnerability
+ReferenceHash: 090f85d8ae3d27d47e34724b4d923452e1dda1ecb25b03910c2c876afbcf11a4
+Details: (1/1) * Possible vulnerability detected: Controller method is potentially vulnerable to Cross Site Request Forgery (CSRF).
+The annotation [ValidateAntiForgeryToken] is missing. The warning may be ignored/suppressed if .NET Core AutoValidateAntiforgeryToken is set up globally. For more information, check the following url (https://security-code-scan.github.io/#SCS0016).
+
+==================================================================================
+
+Language: C#
+Severity: HIGH
+Line: 144
+Column: 38
+SecurityTool: SecurityCodeScan
+Confidence: LOW
+File: /home/przemek/Downloads/MovieServiceMobileAPImaster/API/ViewControllers/AdminController.cs
+Code: public ResponseMessageStatus PutMovie(MovieModel movieModel) {
+RuleID: SCS0016
+Type: Vulnerability
+ReferenceHash: d245cd34a08006aaeade665fa426d378e1f72467603b4f0dbba0e5f2a5ebe61e
+Details: (1/1) * Possible vulnerability detected: Controller method is potentially vulnerable to Cross Site Request Forgery (CSRF).
+The annotation [ValidateAntiForgeryToken] is missing. The warning may be ignored/suppressed if .NET Core AutoValidateAntiforgeryToken is set up globally. For more information, check the following url (https://security-code-scan.github.io/#SCS0016).
+
+==================================================================================
+
+Language: C#
+Severity: HIGH
+Line: 128
+Column: 49
+SecurityTool: SecurityCodeScan
+Confidence: LOW
+File: /home/przemek/Downloads/MovieServiceMobileAPImaster/API/LoginRegister.cs
+Code: public async Task<ActionResult<string>> RefreshToken([FromHeader] string refreshToken)
+RuleID: SCS0016
+Type: Vulnerability
+ReferenceHash: 268982d40c520fc17a874834d6b5ae86d892c551eca8b1c0d2bffec307d8b515
+Details: (1/1) * Possible vulnerability detected: Controller method is potentially vulnerable to Cross Site Request Forgery (CSRF).
+The annotation [ValidateAntiForgeryToken] is missing. The warning may be ignored/suppressed if .NET Core AutoValidateAntiforgeryToken is set up globally. For more information, check the following url (https://security-code-scan.github.io/#SCS0016).
+
+==================================================================================
+
+Language: C#
+Severity: HIGH
+Line: 56
+Column: 38
+SecurityTool: SecurityCodeScan
+Confidence: LOW
+File: /home/przemek/Downloads/MovieServiceMobileAPImaster/API/ViewControllers/RegisterController.cs
+Code: public ResponseMessageStatus Register(UserDataTransferObject userDataTransfer) {
+RuleID: SCS0016
+Type: Vulnerability
+ReferenceHash: 85cff804a59ab00a2fe075d4b4fc23131bf34de8f744723497b5076f7cfa7726
+Details: (1/1) * Possible vulnerability detected: Controller method is potentially vulnerable to Cross Site Request Forgery (CSRF).
+The annotation [ValidateAntiForgeryToken] is missing. The warning may be ignored/suppressed if .NET Core AutoValidateAntiforgeryToken is set up globally. For more information, check the following url (https://security-code-scan.github.io/#SCS0016).
+
+==================================================================================
+
+Language: C#
+Severity: HIGH
+Line: 56
+Column: 23
+SecurityTool: SecurityCodeScan
+Confidence: LOW
+File: /home/przemek/Downloads/MovieServiceMobileAPImaster/API/ViewControllers/LoginController.cs
+Code: public Tokens Login(UserDataTransferObject userDataTransfer) {
+RuleID: SCS0016
+Type: Vulnerability
+ReferenceHash: dae321be159808ad94e2d5fa29a7fdabf66976743c6752e51438a64e58898b75
+Details: (1/1) * Possible vulnerability detected: Controller method is potentially vulnerable to Cross Site Request Forgery (CSRF).
+The annotation [ValidateAntiForgeryToken] is missing. The warning may be ignored/suppressed if .NET Core AutoValidateAntiforgeryToken is set up globally. For more information, check the following url (https://security-code-scan.github.io/#SCS0016).
+
+==================================================================================
+
+Language: C#
+Severity: HIGH
+Line: 39
+Column: 38
+SecurityTool: SecurityCodeScan
+Confidence: LOW
+File: /home/przemek/Downloads/MovieServiceMobileAPImaster/API/ViewControllers/MovieController.cs
+Code: public ResponseMessageStatus AddComment(UsersCommentsModel userComment) {
+RuleID: SCS0016
+Type: Vulnerability
+ReferenceHash: c86dd12d62e8f432365c70176e28fdb328c9fa4c2d90ed24560cbd0a6f579820
+Details: (1/1) * Possible vulnerability detected: Controller method is potentially vulnerable to Cross Site Request Forgery (CSRF).
+The annotation [ValidateAntiForgeryToken] is missing. The warning may be ignored/suppressed if .NET Core AutoValidateAntiforgeryToken is set up globally. For more information, check the following url (https://security-code-scan.github.io/#SCS0016).
+
+==================================================================================
+
+Language: C#
+Severity: HIGH
+Line: 41
+Column: 13
+SecurityTool: SecurityCodeScan
+Confidence: LOW
+File: /home/przemek/Downloads/MovieServiceMobileAPImaster/API/ViewControllers/MovieController.cs
+Code: clientHandler.ServerCertificateCustomValidationCallback = (sender, cert, chain, sslPolicyErrors) => { return true; };
+RuleID: SCS0004
+Type: Vulnerability
+ReferenceHash: 59cfe7397a2f3c2dc4deebcad5570faf066508ee04ce3c35fd0aef9c4723340d
+Details: (1/1) * Possible vulnerability detected: Certificate Validation has been disabled.
+Disabled certificate validation may lead to Person in the Middle attack. For more information, check the following url (https://security-code-scan.github.io/#SCS0004).
+
+==================================================================================
+
+Language: C#
+Severity: HIGH
+Line: 35
+Column: 29
+SecurityTool: SecurityCodeScan
+Confidence: LOW
+File: /home/przemek/Downloads/MovieServiceMobileAPImaster/API/ViewControllers/MovieController.cs
+Code: return Redirect(consts.URL+"/Home/Movie?guid="+guid);
+RuleID: SCS0027
+Type: Vulnerability
+ReferenceHash: e809e5317097b1e9d73f3d5d88f8a32c4891b6c23ee66f3681e28deb145a778d
+Details: (1/1) * Possible vulnerability detected: Potential Open Redirect vulnerability was found where 'url' in 'RedirectResult ControllerBase.Redirect(string url)' may be tainted by user-controlled data from 'IQueryCollection HttpRequest.Query' in method 'IActionResult MovieController.Submit()'.
+The untrusted value passed to the redirect should be validated. For more information, check the following url (https://security-code-scan.github.io/#SCS0027).
+
+==================================================================================
+
+Language: Python
+Severity: LOW
+Line: 102
+Column: 0
+SecurityTool: Bandit
+Confidence: MEDIUM
+File: /home/przemek/Downloads/MovieServiceMobileAPImaster/API/SQLQuery/createDB.py
+Code: 101 #establishing the connection
+102 conn = psycopg2.connect(
+103    database="movieservice", user='
+RuleID: B106
+Type: Vulnerability
+ReferenceHash: 8614b8c2a3de91dd241ef24c7f6e2d763951d0e004c99ebcecf8a7e4110c14ce
+Details: (1/1) * Possible vulnerability detected: Possible hardcoded password: 'mysecretpassword'
+
+==================================================================================
+
+Language: Python
+Severity: LOW
+Line: 82
+Column: 0
+SecurityTool: Bandit
+Confidence: MEDIUM
+File: /home/przemek/Downloads/MovieServiceMobileAPImaster/SQLQuery/createDB.py
+Code: 81 #establishing the connection
+82 conn = psycopg2.connect(
+83    database="movieservicemobile", use
+RuleID: B106
+Type: Vulnerability
+ReferenceHash: b04347781008faafdc4abe1066dc1ce758e23d19d5fd7b27d16a36e80ab96e60
+Details: (1/1) * Possible vulnerability detected: Possible hardcoded password: 'mysecretpassword'
+
+==================================================================================
+
+Language: JavaScript
+Severity: INFO
+Line: 0
+Column: 0
+SecurityTool: HorusecEngine
+Confidence: LOW
+File: /home/przemek/Downloads/MovieServiceMobileAPImaster/API/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js
+Code: 
+RuleID: HS-JAVASCRIPT-1
+Type: Vulnerability
+ReferenceHash: b5f926c2449647b9245545e99b88df48a81d33aaf90c8ee960eef6e19b73af85
+Details: (1/1) * Possible vulnerability detected: No Log Sensitive Information in console
+The App logs information. Sensitive information should never be logged. For more information checkout the CWE-532 (https://cwe.mitre.org/data/definitions/532.html) advisory.
+
+==================================================================================
+
+Language: JavaScript
+Severity: INFO
+Line: 6
+Column: 6059
+SecurityTool: HorusecEngine
+Confidence: LOW
+File: /home/przemek/Downloads/MovieServiceMobileAPImaster/API/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js
+Code: console.error(`Bootstrap doesn't allow more than one instance per element. Bound instance: ${Array.f
+RuleID: HS-JAVASCRIPT-1
+Type: Vulnerability
+ReferenceHash: c897b9d807a0cab1d658db8adfb9159edbd000187e7083ed8412d90c01dd2b41
+Details: (1/1) * Possible vulnerability detected: No Log Sensitive Information in console
+The App logs information. Sensitive information should never be logged. For more information checkout the CWE-532 (https://cwe.mitre.org/data/definitions/532.html) advisory.
+
+==================================================================================
+
+Language: JavaScript
+Severity: INFO
+Line: 6
+Column: 6410
+SecurityTool: HorusecEngine
+Confidence: LOW
+File: /home/przemek/Downloads/MovieServiceMobileAPImaster/API/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js
+Code: console.error(`Bootstrap doesn't allow more than one instance per element. Bound instance: ${Array.f
+RuleID: HS-JAVASCRIPT-1
+Type: Vulnerability
+ReferenceHash: 44229b0e36dcd5fa90bfdbcc1e9f0d307fbceac0befdc3ae76e93c647f8634a1
+Details: (1/1) * Possible vulnerability detected: No Log Sensitive Information in console
+The App logs information. Sensitive information should never be logged. For more information checkout the CWE-532 (https://cwe.mitre.org/data/definitions/532.html) advisory.
+
+==================================================================================
+
+Language: JavaScript
+Severity: INFO
+Line: 6
+Column: 7475
+SecurityTool: HorusecEngine
+Confidence: LOW
+File: /home/przemek/Downloads/MovieServiceMobileAPImaster/API/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js
+Code: console.error(`Bootstrap doesn't allow more than one instance per element. Bound instance: ${Array.f
+RuleID: HS-JAVASCRIPT-1
+Type: Vulnerability
+ReferenceHash: 81fbc132ad45635b95f36dbda62b52aa728e7c7acc1b3b5c073d6a635a5f8ef7
+Details: (1/1) * Possible vulnerability detected: No Log Sensitive Information in console
+The App logs information. Sensitive information should never be logged. For more information checkout the CWE-532 (https://cwe.mitre.org/data/definitions/532.html) advisory.
+
+==================================================================================
+
+Language: JavaScript
+Severity: INFO
+Line: 27
+Column: 4
+SecurityTool: HorusecEngine
+Confidence: LOW
+File: /home/przemek/Downloads/MovieServiceMobileAPImaster/API/wwwroot/lib/jquery-validation/dist/jquery.validate.js
+Code: console.warn( "Nothing selected, can't validate, returning nothing." );
+RuleID: HS-JAVASCRIPT-1
+Type: Vulnerability
+ReferenceHash: c9f521b8d5018cd2f4c2a76c3bc18f42c307ead397789c3df681e531e50561f4
+Details: (1/1) * Possible vulnerability detected: No Log Sensitive Information in console
+The App logs information. Sensitive information should never be logged. For more information checkout the CWE-532 (https://cwe.mitre.org/data/definitions/532.html) advisory.
+
+==================================================================================
+
+Language: JavaScript
+Severity: INFO
+Line: 643
+Column: 5
+SecurityTool: HorusecEngine
+Confidence: LOW
+File: /home/przemek/Downloads/MovieServiceMobileAPImaster/API/wwwroot/lib/jquery-validation/dist/jquery.validate.js
+Code: console.error( "%o has no name assigned", this );
+RuleID: HS-JAVASCRIPT-1
+Type: Vulnerability
+ReferenceHash: 746fadad5cf89bb0f93af1a835d186b54c5732a6e26cdab2f224957bc0aeaf38
+Details: (1/1) * Possible vulnerability detected: No Log Sensitive Information in console
+The App logs information. Sensitive information should never be logged. For more information checkout the CWE-532 (https://cwe.mitre.org/data/definitions/532.html) advisory.
+
+==================================================================================
+
+Language: JavaScript
+Severity: INFO
+Line: 798
+Column: 6
+SecurityTool: HorusecEngine
+Confidence: LOW
+File: /home/przemek/Downloads/MovieServiceMobileAPImaster/API/wwwroot/lib/jquery-validation/dist/jquery.validate.js
+Code: e.log( "Exception occurred when checking element " + element.id + ", check the '" + rule.method + "'
+RuleID: HS-JAVASCRIPT-1
+Type: Vulnerability
+ReferenceHash: 0be96e7d67109822f4ea7f166a81868b2d267aa06f6f7d6e8b104b2d7d7fac08
+Details: (1/1) * Possible vulnerability detected: No Log Sensitive Information in console
+The App logs information. Sensitive information should never be logged. For more information checkout the CWE-532 (https://cwe.mitre.org/data/definitions/532.html) advisory.
+
+==================================================================================
+
+Language: JavaScript
+Severity: INFO
+Line: 2
+Column: 31505
+SecurityTool: HorusecEngine
+Confidence: LOW
+File: /home/przemek/Downloads/MovieServiceMobileAPImaster/API/wwwroot/lib/jquery/dist/jquery.min.js
+Code: console&&C.console.warn&&e&&W.test(e.name)&&C.console.warn("jQuery.Deferred exception: "+e.message,e
+RuleID: HS-JAVASCRIPT-1
+Type: Vulnerability
+ReferenceHash: 3a70f6f9a916fe00b8d10af0493c7fe1a2a7a54eb879901689d452dc7d5e79b3
+Details: (1/1) * Possible vulnerability detected: No Log Sensitive Information in console
+The App logs information. Sensitive information should never be logged. For more information checkout the CWE-532 (https://cwe.mitre.org/data/definitions/532.html) advisory.
+
+==================================================================================
+
+Language: JavaScript
+Severity: INFO
+Line: 658
+Column: 8
+SecurityTool: HorusecEngine
+Confidence: LOW
+File: /home/przemek/Downloads/MovieServiceMobileAPImaster/API/wwwroot/lib/bootstrap/dist/js/bootstrap.js
+Code: error(`Bootstrap doesn't allow more than one instance per element. Bound instance: ${Array.from(inst
+RuleID: HS-JAVASCRIPT-1
+Type: Vulnerability
+ReferenceHash: 77595cd13548f44bcf475ac7c087ec07347b0d7c3af39715327dc88f116f9c05
+Details: (1/1) * Possible vulnerability detected: No Log Sensitive Information in console
+The App logs information. Sensitive information should never be logged. For more information checkout the CWE-532 (https://cwe.mitre.org/data/definitions/532.html) advisory.
+
+==================================================================================
+
+Language: JavaScript
+Severity: INFO
+Line: 632
+Column: 6
+SecurityTool: HorusecEngine
+Confidence: LOW
+File: /home/przemek/Downloads/MovieServiceMobileAPImaster/API/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js
+Code: e.error(`Bootstrap doesn't allow more than one instance per element. Bound instance: ${Array.from(in
+RuleID: HS-JAVASCRIPT-1
+Type: Vulnerability
+ReferenceHash: bf74ebb62043a172a0759a45245138c94005e5eb281f0fa26b9b23f58e6e082d
+Details: (1/1) * Possible vulnerability detected: No Log Sensitive Information in console
+The App logs information. Sensitive information should never be logged. For more information checkout the CWE-532 (https://cwe.mitre.org/data/definitions/532.html) advisory.
+
+==================================================================================
+
+Language: JavaScript
+Severity: INFO
+Line: 636
+Column: 8
+SecurityTool: HorusecEngine
+Confidence: LOW
+File: /home/przemek/Downloads/MovieServiceMobileAPImaster/API/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js
+Code: error(`Bootstrap doesn't allow more than one instance per element. Bound instance: ${Array.from(inst
+RuleID: HS-JAVASCRIPT-1
+Type: Vulnerability
+ReferenceHash: 0268c1d099e139912d7ee3ac711f5785b84f6f32ac3e5fdc1daa12cca701e338
+Details: (1/1) * Possible vulnerability detected: No Log Sensitive Information in console
+The App logs information. Sensitive information should never be logged. For more information checkout the CWE-532 (https://cwe.mitre.org/data/definitions/532.html) advisory.
+
+==================================================================================
+
+Language: JavaScript
+Severity: INFO
+Line: 4046
+Column: 9
+SecurityTool: HorusecEngine
+Confidence: LOW
+File: /home/przemek/Downloads/MovieServiceMobileAPImaster/API/wwwroot/lib/jquery/dist/jquery.js
+Code: window.console.warn( "jQuery.Deferred exception: " + error.message, error.stack, stack );
+RuleID: HS-JAVASCRIPT-1
+Type: Vulnerability
+ReferenceHash: 5fd053c8889d8f5eb29946f47b21ece051832a8267240844cd21ac38381a0c0f
+Details: (1/1) * Possible vulnerability detected: No Log Sensitive Information in console
+The App logs information. Sensitive information should never be logged. For more information checkout the CWE-532 (https://cwe.mitre.org/data/definitions/532.html) advisory.
+
+==================================================================================
+
+Language: C#
+Severity: INFO
+Line: 21
+Column: 8
+SecurityTool: HorusecEngine
+Confidence: LOW
+File: /home/przemek/Downloads/MovieServiceMobileAPImaster/API/Controllers/CommentsController.cs
+Code: [HttpPost]
+RuleID: HS-CSHARP-63
+Type: Vulnerability
+ReferenceHash: 22dd8e29c9f8feef227d729434bd39f287e81bb98a761211c9cb3363a236c6b2
+Details: (1/1) * Possible vulnerability detected: Missing Anti Forgery Token Attribute
+Cross Site Request Forgery attacks occur when a victim authenticates to a target web site and then visits a malicious web page. The malicious web page then sends a fake HTTP request (GET, POST, etc.) back to the target website. The victim’s valid authentication cookie from the target web site is automatically included in the malicious request, sent to the target web site, and processed as a valid transaction under the victim’s identity.This rule searches for all actions decorated with HTTP verbs that typically modify data (POST, PUT, DELETE, and PATCH). Actions containing the [AllowAnonymous] attribute are not reported as CSRF attacks target authenticated users. Any identified actions that are missing the ValidateAntiForgeryToken attribute raise a diagnostic warning. In ASP.NET MVC, the ValidateAntiForgeryToken attribute protects applications using authentication cookies from CSRF attacks. Actions with this attribute search the request parameters for the __RequestVerificationToken and validate the value prior to executing the request. For more information checkout the CWE-352 (https://cwe.mitre.org/data/definitions/352.html) advisory.
+
+==================================================================================
+
+Language: C#
+Severity: INFO
+Line: 20
+Column: 8
+SecurityTool: HorusecEngine
+Confidence: LOW
+File: /home/przemek/Downloads/MovieServiceMobileAPImaster/API/Controllers/MoviesController.cs
+Code: [HttpGet]
+RuleID: HS-CSHARP-63
+Type: Vulnerability
+ReferenceHash: 30604f08f1d6b1b09107e5456b3b96460619bdc49278250d0405c9756c57c1f0
+Details: (1/1) * Possible vulnerability detected: Missing Anti Forgery Token Attribute
+Cross Site Request Forgery attacks occur when a victim authenticates to a target web site and then visits a malicious web page. The malicious web page then sends a fake HTTP request (GET, POST, etc.) back to the target website. The victim’s valid authentication cookie from the target web site is automatically included in the malicious request, sent to the target web site, and processed as a valid transaction under the victim’s identity.This rule searches for all actions decorated with HTTP verbs that typically modify data (POST, PUT, DELETE, and PATCH). Actions containing the [AllowAnonymous] attribute are not reported as CSRF attacks target authenticated users. Any identified actions that are missing the ValidateAntiForgeryToken attribute raise a diagnostic warning. In ASP.NET MVC, the ValidateAntiForgeryToken attribute protects applications using authentication cookies from CSRF attacks. Actions with this attribute search the request parameters for the __RequestVerificationToken and validate the value prior to executing the request. For more information checkout the CWE-352 (https://cwe.mitre.org/data/definitions/352.html) advisory.
+
+==================================================================================
+
+Language: C#
+Severity: INFO
+Line: 25
+Column: 8
+SecurityTool: HorusecEngine
+Confidence: LOW
+File: /home/przemek/Downloads/MovieServiceMobileAPImaster/API/LoginRegister.cs
+Code: [HttpPost]
+RuleID: HS-CSHARP-63
+Type: Vulnerability
+ReferenceHash: 0c98eb6de2576cb47e644d18977bef025abc4b90f0c0ec81cdc09af0d3fb9362
+Details: (1/1) * Possible vulnerability detected: Missing Anti Forgery Token Attribute
+Cross Site Request Forgery attacks occur when a victim authenticates to a target web site and then visits a malicious web page. The malicious web page then sends a fake HTTP request (GET, POST, etc.) back to the target website. The victim’s valid authentication cookie from the target web site is automatically included in the malicious request, sent to the target web site, and processed as a valid transaction under the victim’s identity.This rule searches for all actions decorated with HTTP verbs that typically modify data (POST, PUT, DELETE, and PATCH). Actions containing the [AllowAnonymous] attribute are not reported as CSRF attacks target authenticated users. Any identified actions that are missing the ValidateAntiForgeryToken attribute raise a diagnostic warning. In ASP.NET MVC, the ValidateAntiForgeryToken attribute protects applications using authentication cookies from CSRF attacks. Actions with this attribute search the request parameters for the __RequestVerificationToken and validate the value prior to executing the request. For more information checkout the CWE-352 (https://cwe.mitre.org/data/definitions/352.html) advisory.
+
+==================================================================================
+
+In this analysis, a total of 64 possible vulnerabilities were found and we classified them into:
+Total of Vulnerability CRITICAL is: 17
+Total of Vulnerability HIGH is: 30
+Total of Vulnerability LOW is: 2
+Total of Vulnerability INFO is: 15
+
+==================================================================================

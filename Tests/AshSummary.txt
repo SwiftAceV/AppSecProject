@@ -1,0 +1,114 @@
+#############################################
+Start of  /home/przemek/Downloads/MovieServiceMobileAPImaster//cdk_report_result.txt
+#############################################
+
+#############################################
+End of  /home/przemek/Downloads/MovieServiceMobileAPImaster//cdk_report_result.txt
+#############################################
+
+
+#############################################
+Start of  /home/przemek/Downloads/MovieServiceMobileAPImaster//git_report_result.txt
+#############################################
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+#############################################
+End of  /home/przemek/Downloads/MovieServiceMobileAPImaster//git_report_result.txt
+#############################################
+
+
+#############################################
+Start of  /home/przemek/Downloads/MovieServiceMobileAPImaster//grype_report_result.txt
+#############################################
+No vulnerabilities found
+No packages discovered
+#############################################
+End of  /home/przemek/Downloads/MovieServiceMobileAPImaster//grype_report_result.txt
+#############################################
+
+
+#############################################
+Start of  /home/przemek/Downloads/MovieServiceMobileAPImaster//py_report_result.txt
+#############################################
+[main]	INFO	profile include tests: None
+[main]	INFO	profile exclude tests: None
+[main]	INFO	cli include tests: None
+[main]	INFO	cli exclude tests: None
+[main]	INFO	running on Python 3.11.0
+Run started:2022-11-23 20:15:19.012855
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 189
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 2
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 2
+		High: 0
+Files skipped (0):
+#############################################
+End of  /home/przemek/Downloads/MovieServiceMobileAPImaster//py_report_result.txt
+#############################################
+
+
+#############################################
+Start of  /home/przemek/Downloads/MovieServiceMobileAPImaster//yaml_report_result.txt
+#############################################
+
+       _               _              
+   ___| |__   ___  ___| | _______   __
+  / __| '_ \ / _ \/ __| |/ / _ \ \ / /
+ | (__| | | |  __/ (__|   < (_) \ V / 
+  \___|_| |_|\___|\___|_|\_\___/ \_/  
+                                      
+By bridgecrew.io | version: 2.2.86 
+
+terraform_plan scan results:
+
+Passed checks: 0, Failed checks: 0, Skipped checks: 0, Parsing errors: 1
+
+Error parsing file launchSettings.jsonֿ
+
+------------------------------------------------------------
+./API/Properties/launchSettings.json
+------------------------------------------------------------------------------------------------------------------------
+[31m| FAIL FATAL[0m
+[31m|[0m
+[31m| #<ArgumentError: invalid byte sequence in US-ASCII>[0m
+
+Failures count: 1
+Warnings count: 0
+------------------------------------------------------------
+./API/appsettings.Development.json
+------------------------------------------------------------------------------------------------------------------------
+[31m| FAIL FATAL[0m
+[31m|[0m
+[31m| Illegal cfn - no Resources[0m
+
+Failures count: 1
+Warnings count: 0
+------------------------------------------------------------
+./API/appsettings.json
+------------------------------------------------------------------------------------------------------------------------
+[31m| FAIL FATAL[0m
+[31m|[0m
+[31m| Illegal cfn - no Resources[0m
+
+Failures count: 1
+Warnings count: 0
+#############################################
+End of  /home/przemek/Downloads/MovieServiceMobileAPImaster//yaml_report_result.txt
+#############################################
+
+
